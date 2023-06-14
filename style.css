@@ -1,0 +1,139 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  }
+ 
+ .Div1 {
+    
+    background-color: #303030;
+    color: #FFFFFF;
+    padding: 100px;
+  }
+  
+  #Titulo_central {
+    font-family: 'Inter', sans-serif;
+    font-style: normal; 
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    height: 72px;
+    margin-left: 62px;
+    margin-top: 206px;
+    
+  }
+  
+  #sub_titulo {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 10px; 
+    margin-left: 62px;
+    color: #FFFFFF;
+  }
+  
+  .Div2 {
+      background-color: #F9F9F9;
+      text-align: center;
+      padding: 100px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .Div2 h1, .Div2 h2, .Div2 h3 {
+      display: inline-block;
+      margin: 0;
+      margin-right: 60px;
+      margin-left: 100px;
+      font-size: 30px;
+      font-weight: normal;
+    }
+    .Div2 h1 span{
+      float: left;
+    }
+    .Div2 h2 span{
+      float: left;
+    }
+    .Div2 h3 span{
+      float: left;
+    }
+
+    
+    .arquitetura {
+      position: absolute;
+      top: 100%;
+      right: 54px;
+      
+    }
+    
+    .descricao {
+      font-family: "inter", sans-serif;
+      font-style: normal; 
+      color: #000000;
+      font-size: 40px;
+      font-weight: normal;
+      margin-left: 200px;
+      margin-right: 64px;
+      margin-top: 15%;
+    }
+    
+    p {
+      font-family: "inter", sans-serif;
+      font-style: normal;
+      color: #000000;
+      font-size: 24px;
+      margin-left: 200px;
+      margin-right: 64px;
+      margin-top: 30px;
+    }
+    
+    .Div3{
+      margin-top: 15%;
+      background-color: #303030;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 100px;
+      font-family: "inter";
+      font-size: 28px; 
+    }
+    input {
+      width: 600px;
+      font-family: "Raleway", sans-serif;
+      font-style: normal;
+      height: 72px;
+      border-radius: 10px;
+      padding-left: 30px;
+      background: #FFFFFF;
+      margin: 25px;
+      border: 0;
+    }
+    .Negrito{
+      font-family: "Raleway", sans-serif;
+      font-size: normal;
+      font-weight: 700;
+      font-size: 24px;
+      color:#0000004D 30%;
+    }
+    button{
+      background-color: #C07212;
+      color: #FFFFFF;
+      font-family: 'Raleway';
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 30px;
+      text-align: center;
+      position: center;
+      width: 286px;
+      height: 74px;
+      border-radius: 10px;
+      cursor: pointer;
+      border: 0px;
+      
+    }
+    button:hover{
+      border-radius: 10px;
+      transform: translateY(-5px);
+      box-shadow: 0px 05px 05px #05103077;
+      transition-duration: 0.3s;
+      
+    }
